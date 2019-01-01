@@ -12,14 +12,14 @@ class CrudGenerator extends Command
      *
      * @var string
      */
-    protected $signature = 'crud:generator
+    protected $signature = 'api:generator
     {name : Class (singular) for example User}';
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Create CRUD operations';
+    protected $description = 'Create REST API CRUD operations';
 
     /**
      * Create a new command instance.
