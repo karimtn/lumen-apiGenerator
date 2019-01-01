@@ -12,7 +12,7 @@ class CrudGenerator extends Command
      *
      * @var string
      */
-    protected $signature = 'api:generator
+    protected $signature = 'api:generate
     {name : Class (singular) for example User}';
     /**
      * The console command description.
